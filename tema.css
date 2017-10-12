@@ -703,7 +703,7 @@
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "[CSS]";
+    content: "[H]";
     display: inline-block;
     color: #90369c!important;
     font-weight: bold;
@@ -726,7 +726,7 @@
 }
         /*Koryoshe*/
 #chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
-    content: 'CSS';
+    content: 'host';
     border-radius: 3px;
     border-width: 2px;
     font-size: 11px;
@@ -750,9 +750,9 @@
     font-style: normal;
     font-weight: bold;
 }
-        /*Koryoshe*/
+        /*Percyvll*/
 #chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
-    content: 'CSS';
+    content: 'VIP';
     border-radius: 3px;
     border-width: 2px;
     font-size: 11px;
@@ -764,6 +764,11 @@
     font-weight: bold;
 }
 /*########## [chat] ##########*/
+#chat .rs-log-earn {
+    color: #6fa7ff;
+    border-left: #ffdd6f 3px solid;
+    font-weight: 700;
+}
 #chat-header {
 	background: rgba(30,35,40,0.7);
 	border: none !important;
@@ -826,6 +831,11 @@
 #chat .cm {
 	background: linear-gradient(hsla(220,10%,20%,0.5), hsla(220,10%,15%,0.5));
 	box-shadow: inset 1px 1px 0 hsla(220,10%,20%,0.8);
+}
+#chat .rs-log-earn {
+    color: #69c;
+    border-left: #ffdd6f 3px solid;
+    font-weight: 700;
 }
 #chat .cm.message:nth-child(odd) {
 	background: linear-gradient(hsla(220,10%,10%,0.5), hsla(220,10%,12%,0.5));
@@ -1185,16 +1195,21 @@
 #user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
 #user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%); !important} 
 
+/* ICONES */
+
+/* Koryoshe*/
+#chat [data-cid^='5417955-'] .un:before {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    top: 4px;
+    Left: -2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    position: relative;
+}
+
 /* Badges */
 
 /* Staff */
-
-/* Koryoshe */
-#user-rollover.id-5417955 .badge-box > i.bdg,
-.id-5417955 > .badge-box > i.bdg
-{
-    background-image:    url("https://image.prntscr.com/image/y4MLUiX7SVimlvlCjXLkPA.png");
-}
 
 /* NightPlug */
 #user-rollover.id-30619682 .badge-box > i.bdg,
