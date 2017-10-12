@@ -764,11 +764,7 @@
     font-weight: bold;
 }
 /*########## [chat] ##########*/
-#chat .rs-log-earn {
-    color: #6fa7ff;
-    border-left: #ffdd6f 3px solid;
-    font-weight: 700;
-}
+
 #chat-header {
 	background: rgba(30,35,40,0.7);
 	border: none !important;
