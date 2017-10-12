@@ -698,11 +698,17 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*###### [Diamante] #######*/
-          /*Koryoshe*/
+    /*###### [Diamante] #######*/
+        /*Koryoshe*/
 #user-rollover.id-5417955 .level:after {
-    background-image: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
-	background-repeat: no-repeat;
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
 }
 /*###### [Tag Chat] ######*/
         /*NightPlug*/
@@ -720,12 +726,7 @@
 }
         /*Koryoshe*/
 #chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
-	background: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
-	background-repeat: no-repeat;
-    border-radius: 3px;
-    border-width: 2px;
-    display: inline-block;
-    margin: 0 0 0 8px
+	content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
 }
         /*Nightplugbot*/
 #chat [data-cid^='30597988-'] .un:after, #user-lists .list .user.id-30597988 .name:after, #user-rollover.id-30597988 .username:after {
