@@ -163,6 +163,10 @@
     font-size: 15px;
     font-family: -webkit-body;
     color: cornflowerblue;
+	overflow: hidden!important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 }
 /*MENSAGEM DE BOAS-VINDAS*/
 #room-settings .general-settings .description .value {
@@ -699,7 +703,7 @@
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "[HELPER]";
+    content: "[CSS]";
     display: inline-block;
     color: #90369c!important;
     font-weight: bold;
@@ -722,7 +726,7 @@
 }
         /*Koryoshe*/
 #chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
-    content: 'helper';
+    content: 'CSS';
     border-radius: 3px;
     border-width: 2px;
     font-size: 11px;
