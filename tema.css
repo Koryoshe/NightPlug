@@ -699,7 +699,7 @@
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "[CSS]";
+    content: "[HELPER]";
     display: inline-block;
     color: #90369c!important;
     font-weight: bold;
@@ -722,7 +722,7 @@
 }
         /*Koryoshe*/
 #chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
-    content: 'CSS';
+    content: 'helper';
     border-radius: 3px;
     border-width: 2px;
     font-size: 11px;
