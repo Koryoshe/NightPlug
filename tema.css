@@ -654,7 +654,7 @@
 #user-rollover.id-30619682 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "BOT";
+    content: "[BOT]";
     display: inline-block;
     color: #44e7ed!important;
     font-weight: bold;
@@ -665,7 +665,7 @@
 #user-rollover.id- .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "VIP";
+    content: "[VIP]";
     display: inline-block;
     color: #e2da24!important;
     font-weight: bold;
@@ -676,7 +676,7 @@
 #user-rollover.id-30597988 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "VIP";
+    content: "[VIP]";
     display: inline-block;
     color: #e2da24!important;
     font-weight: bold;
@@ -687,7 +687,7 @@
 #user-rollover.id-29319764 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "VIP";
+    content: "[VIP]";
     display: inline-block;
     color: #e2da24!important;
     font-weight: bold;
@@ -699,7 +699,7 @@
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "CSS";
+    content: "[CSS]";
     display: inline-block;
     color: #90369c!important;
     font-weight: bold;
