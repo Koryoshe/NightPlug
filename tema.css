@@ -648,6 +648,79 @@
 #media-panel .media-list.playlist-media .meta {
 	border: none !important;
 }
+/*###### [Status perfil] ######*/
+       /*## [VIP] ##*/
+        /*nightPlug*/
+#user-rollover.id-30619682 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "BOT";
+    display: inline-block;
+    color: #44e7ed!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+       /*ninguem*/
+#user-rollover.id- .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "VIP";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+       /*Nightplugbot*/
+#user-rollover.id-30597988 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "VIP";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*Percyvall*/
+#user-rollover.id-29319764 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "VIP";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+       /*###### [Designer] #######*/
+          /*Koryoshe*/
+#user-rollover.id-5417955 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "CSS";
+    display: inline-block;
+    color: #90369c!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+/*###### [Tag Chat] ######*/
+        /*NightPlug*/
+#chat [data-cid^='30619682-'] .un:after, #user-lists .list .user.id-30619682 .name:after, #user-rollover.id-30619682 .username:after {
+    content: 'BOT';
+    border-radius: 3px;
+    border-width: 2px;
+    font-size: 11px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #2b7b30;
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(hsla(210,10%,50%,0.3), hsla(210,10%,40%,0.3);
+}
 /*########## [chat] ##########*/
 #chat-header {
 	background: rgba(30,35,40,0.7);
