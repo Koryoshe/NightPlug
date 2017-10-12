@@ -1184,8 +1184,8 @@
 /* ICONES */
 
 /* Koryoshe*/
-#chat [data-cid^='5417955-'] .un:before {
-    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+#chat [data-cid^='000000-'] .un:before {
+    content: url(none);
     top: 4px;
     Left: -2px;
     padding-left: 2px;
