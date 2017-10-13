@@ -401,10 +401,11 @@
     border-radius: 40px;
     width: 255px !important;
 }
+#vote .crowd-response.disabled .bottom {
+    background: rgba(68, 74, 89, 0);
+}
 #app #vote .bottom {
 	background-image: url(https://image.prntscr.com/image/ApuzW4YUSfSrCjI82qGPXQ.png);
-	background-position: center;
-	background-repeat: no-repeat;
 }
 #woot, #grab, #meh {
 	margin-top: 0 !important;
