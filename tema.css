@@ -153,7 +153,6 @@
 	background: linear-gradient(hsl(205,100%,40%), hsl(205,100%,30%));
 	box-shadow: inset 0 0 10px 1px hsla(0,0%,100%,0.4);
 }
-}
 /*MENSAGEM DE BOAS-VINDAS*/
 #room-settings .general-settings .description .value {
     width: 500px;
@@ -183,7 +182,6 @@
     height: 50px;
     text-align: center;
 	box-shadow: inset 0px 0px 3px 3px rgba(0, 208, 255, 0.52);
-}
 }
 #room-settings .general-settings .description .value a:last-of-type {
     display: none !important;
@@ -714,8 +712,8 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*ninguem*/
-#user-rollover.id- .level:after {
+       /*Roverenc*/
+#user-rollover.id-30661935 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -792,6 +790,18 @@
 }
         /*Percyvll*/
 #chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
+    content: 'VIP';
+    border-radius: 3px;
+    border-width: 2px;
+    font-size: 11px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #e2da24;
+    font-style: normal;
+    font-weight: bold;
+}
+#chat [data-cid^='30661935-'] .un:after, #user-lists .list .user.id-30661935 .name:after, #user-rollover.id-30661935 .username:after {
     content: 'VIP';
     border-radius: 3px;
     border-width: 2px;
