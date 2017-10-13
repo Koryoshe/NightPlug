@@ -154,38 +154,37 @@
 	background: linear-gradient(hsl(205,100%,40%), hsl(205,100%,30%));
 	box-shadow: inset 0 0 10px 1px hsla(0,0%,100%,0.4);
 }
-#room-settings .general-settings .value {
-    position: absolute;
-    top: 34px;
-    left: 10px;
-    width: 420px;
-    word-wrap: break-word;
-    font-size: 15px;
-    font-family: -webkit-body;
-    color: cornflowerblue;
-	overflow: hidden!important;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
 }
 /*MENSAGEM DE BOAS-VINDAS*/
 #room-settings .general-settings .description .value {
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 235px;
-    font-family: -webkit-body;
-    color: cornflowerblue;
+    width: 500px;
+    height: 300px;
+    left: 150px;
 }
 /*DESCRIÇÃO DA COMUNIDADE*/
 #room-settings .general-settings .panel .title {
     position: relative;
     margin-top: 10px;
     margin-left: 10px;
-    float: left;
+    float: center;
     color: rgba(102,212,247,0.89);
     text-transform: uppercase;
     font-size: 13px;
 	font-family: fantasy;
+	left: 320px;
+}
+#room-settings .general-settings .value {
+    position: absolute;
+    top: 34px;
+    font-family: -webkit-body;
+    color: cornflowerblue;
+    overflow: hidden!important;
+    border: double 5px;
+    border-radius: 0px 30px 0px 30px;
+    height: 50px;
+    text-align: center;
+	box-shadow: inset 0px 0px 3px 3px rgba(0, 208, 255, 0.52);
+}
 }
 #room-settings .general-settings .description .value a:last-of-type {
     display: none !important;
@@ -236,13 +235,19 @@
 	color: #eee !important;
 }
 .dropdown dd {
-	background: transparent;
+    background: rgba(26, 27, 27, 0.72);
 }
 .dropdown dd, #chat-suggestion, #dialog-user-role .role-menu .menu ul li, #search-suggestion li, #dialog-restricted-media .row.selected, {
 	background: hsla(210,10%,10%,0.8) !important;
 }
 #dialog-user-role .role-menu .menu ul li {
 	border-color: hsla(210,10%,8%,0.8);
+}
+.dropdown dd .row {
+    position: relative;
+    width: 100%;
+    height: 39px;
+    color: #6699cc;
 }
 .dropdown dd .row:hover,
 .chat-suggestion-item[style='background: rgb(45, 49, 58);'],
@@ -339,9 +344,9 @@
 	background: radial-gradient(hsl(210,10%,15%), hsl(210,10%,20%)) !important;
 }
 #the-user-profile .experience .bar .progress, #footer-user .info .meta .bar .progress {
-	border-radius: 20px;
-	background: radial-gradient(at top left, hsla(0,0%,50%,0), hsla(0,0%,100%,0.2)), linear-gradient(hsl(205,100%,60%), hsl(205,100%,50%));
-	box-shadow: 0 0 30px hsl(205,100%,50%);
+    border-radius: 20px;
+    background: radial-gradient(at top left, hsla(274, 96%, 48%, 0.50), hsla(286, 80%, 43%, 0.50)), linear-gradient(hsl(205,100%,60%), hsl(205,100%,50%));
+    box-shadow: 0 0 30px hsl(205,100%,50%);
 }
 #the-user-profile .experience .bar .value, #footer-user .info .meta .bar .value {
 	text-shadow: 0 0 3px black;
@@ -394,6 +399,22 @@
     font-size: 12px;
 	font-family: -webkit-body;
     color: aqua;
+}
+.dark-label {
+    color: #b5b5b5;
+}
+#fullscreenDisable, #friendfinder, .cbg-images, .rcs-menu-container .group, #rcs-found-update-chat, #now-playing-time, #now-playing-dj .username, #woot-rs-list p, #grab-rs-list p, #meh-rs-list p, #waitlist .list .user .name, .friends .list .name {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+#volume {
+    position: absolute;
+    top: 27px;
+    right: 64px;
+    z-index: 10;
+    width: 30px;
+    height: 25px;
+    color: cornflowerblue;
 }
 /*--[vote]--*/
 #vote {
@@ -789,6 +810,10 @@
 	background: rgba(30,35,40,0.7);
 	border: none !important;
 }
+#chat-messages::-webkit-scrollbar, .dropdown dd::-webkit-scrollbar, #woot-rs-list::-webkit-scrollbar, #grab-rs-list::-webkit-scrollbar, #meh-rs-list::-webkit-scrollbar, .dialog::-webkit-scrollbar {
+    width: 7px !important;
+    box-shadow: inset -1px 0 7px hsla(203, 98%, 46%, 0.7);
+}
 #chat-messages .text {
     position: relative;
     font-family: sans-serif;
@@ -956,8 +981,8 @@
 	color: #c59840 !important;
 }
 #user-lists .group {
-	border: none !important;
-	box-shadow: 0 0 1px 1px;
+    border: double 3px;
+    box-shadow: 0 0 0px 1px;
 }
 #user-lists .user:hover {
 	background: none !important;
