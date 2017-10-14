@@ -943,12 +943,13 @@
 .icon-chat-manager + span,
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-	color: #04cc07 !important;
+	color: #115609  !important;
 }
 #user-lists .group.manager {
-	color: #04cc07;
-	background: none !important;
-}/*#####[BOUNCER]#####*/
+    color: #04cc07;
+    background: none !important;
+}
+/*#####[BOUNCER]#####*/
 .icon-chat-bouncer {
 	background: url(https://image.prntscr.com/image/hvHp5Y8STziDdzJIy5m4fg.png);
 	background-position: 1px 0 !important;
