@@ -178,12 +178,8 @@
     overflow: hidden!important;
     border: double 5px;
     border-radius: 0px 30px 0px 30px;
-    height: 50px;
     text-align: center;
 	box-shadow: inset 0px 0px 3px 3px rgba(0, 208, 255, 0.52);
-}
-#room-settings .general-settings .description .value a:last-of-type {
-    display: none !important;
 }
 #room-settings .general-settings button, #room-settings .general-settings .option.enabled button.off {
 	background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%)) !important;
