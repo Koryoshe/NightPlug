@@ -4,7 +4,13 @@
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
-/*--[PLUG]--*/
+/*#### [TEMA DE FUNDO] ####*/
+.room-background {
+	background: url(https://image.prntscr.com/image/hFefx0wFS42_Z3HxA4uSBQ.jpg) no-repeat !important;
+	width: 500% !important;
+	height: 500% !important;
+}	
+/*#### [CONFIG DA SALA] ####*/
 #room-settings a:hover, #chat a:hover {
 	color: hsl(200,100%,55%) !important;
 	text-shadow: 0 0 5px;
@@ -138,7 +144,7 @@
 #playlist-import:hover, #playlist-create:hover {
 	background: linear-gradient(hsl(205,80%,50%), hsl(205,80%,40%));
 }
-/*--[user-menu]--*/
+/*#### [USER-MENU] ####*/
 #user-menu, #room-settings-menu, #playlist-menu {
 	background: linear-gradient(to right, hsla(210,10%,40%,0), hsla(210,10%,50%,0.2));
 }
@@ -153,12 +159,12 @@
 	background: linear-gradient(hsl(205,100%,40%), hsl(205,100%,30%));
 	box-shadow: inset 0 0 10px 1px hsla(0,0%,100%,0.4);
 }
-/*MENSAGEM DE BOAS-VINDAS*/
+/*#### [MENSAGEM DE BOAS-VINDAS] ####*/
 #room-settings .general-settings .description .value {
     width: 500px;
     height: 300px;
 }
-/*DESCRIÇÃO DA COMUNIDADE*/
+/*#### [DESCRIÇÃO DA COMUNIDADE] ####*/
 #room-settings .general-settings .panel .title {
     position: relative;
     margin-top: 10px;
@@ -343,7 +349,7 @@
 #the-user-profile .experience .bar .value, #footer-user .info .meta .bar .value {
 	text-shadow: 0 0 3px black;
 }
-/*--[toast-notifications]--*/
+/*#### [TOAST-NOTIFICATIONS] ####*/
 .notification {
 	border-radius: 20px;
 	background: rgba(152,152,152,0.38);
@@ -356,7 +362,7 @@
 	border-radius: 0 20px 20px 0;
 	background: none !important;
 }
-/*--[dj-button]--*/
+/*#### [DJ-BUTTON] ####*/
 #dj-button {
 	border-radius: 50px;
 	background: linear-gradient(hsla(210,10%,50%,0.3), hsla(210,10%,40%,0.3));
@@ -391,7 +397,7 @@
 #dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
 	background: linear-gradient(135deg, hsla(0,0%,10%,0.9), hsla(0,0%,5%,0.9));
 }
-/*cor do nome do dono da sala*/
+/*#### [COLOR HOST ROOM] ####*/
 #room-host {
     white-space: nowrap;
     font-size: 12px;
@@ -414,7 +420,7 @@
     height: 25px;
     color: cornflowerblue;
 }
-/*--[vote]--*/
+/*#### [VOTE] ####*/
 #vote {
     box-shadow: 0px 0px 9px 4px #6dc3e0;
     border-radius: 40px;
@@ -524,7 +530,7 @@
 #meh i.icon {
     background-image: url(https://image.prntscr.com/image/60ZCNwCyQCGDo-sTMQLAYw.png);
 }
-/*--[user-rollover]--*/
+/*#### [USER-ROLLOVER] ####*/
 #user-rollover {
 	border-radius: 5px 5px 0 0;
 	background: linear-gradient(135deg, hsla(0,0%,20%,0.6), hsla(0,0%,0%,0.6));
@@ -595,7 +601,7 @@
 	background: radial-gradient(hsla(210,100%,30%,0.9), hsla(210,100%,20%,0.9)) !important;
 	box-shadow: inset 0 0 50px #000 !important;
 }
-/*--[playlists]--*/
+/*#### [PLAYLIST] ####*/
 #media-panel #playlist-activate-button {
 	background: linear-gradient(hsl(260,50%,40%), hsl(260,40%,30%));
 	box-shadow: inset 0 0 10px 1px hsl(260,50%,45%);
@@ -700,9 +706,11 @@
 #media-panel .media-list.playlist-media .meta {
 	border: none !important;
 }
-/*###### [Status perfil] ######*/
-       /*## [VIP] ##*/
-        /*nightPlug*/
+/*#### [TAG PERFIL] ####*/
+       
+	/*## [TAG-BOT] ##*/
+	   
+        /*# [nightPlug] #*/
 #user-rollover.id-30619682 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
@@ -713,7 +721,9 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*Roverenc*/
+	/*## [TAG-VIP] ##*/
+	
+       /*# [Roverenc] #*/
 #user-rollover.id-30661935 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
@@ -724,7 +734,7 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*Nightplugbot*/
+       /*# [Nightplugbot] #*/
 #user-rollover.id-30597988 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
@@ -735,7 +745,7 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-        /*Percyvall*/
+        /*# [Percyvall] #*/
 #user-rollover.id-29319764 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
@@ -746,8 +756,9 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-    /*###### [Diamante] #######*/
-        /*Koryoshe*/
+    /*## [TAG-DIAMANTE] ##*/
+	
+        /*# [Koryoshe] #*/
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
@@ -758,8 +769,11 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-/*###### [Tag Chat] ######*/
-        /*NightPlug*/
+/*#### [TAG CHAT] ####*/
+
+    /*## [TAG-BOT] ##*/
+	
+        /*# [NightPlug] #*/
 #chat [data-cid^='30619682-'] .un:after, #user-lists .list .user.id-30619682 .name:after, #user-rollover.id-30619682 .username:after {
     content: 'BOT';
     border-radius: 3px;
@@ -772,12 +786,16 @@
     font-style: normal;
     font-weight: bold;
 }
-        /*Koryoshe*/
+	/*## [TAG-DIAMANTE] ##*/
+	
+        /*# [Koryoshe] #*/
 #chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 10px;
 }
-        /*Nightplugbot*/
+	/*## [TAG-VIP] ##*/
+	
+        /*# [Nightplugbot] #*/
 #chat [data-cid^='30597988-'] .un:after, #user-lists .list .user.id-30597988 .name:after, #user-rollover.id-30597988 .username:after {
     content: 'VIP';
     border-radius: 3px;
@@ -790,7 +808,7 @@
     font-style: normal;
     font-weight: bold;
 }
-        /*Percyvll*/
+        /*# [Percyvll] #*/
 #chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
     content: 'VIP';
     border-radius: 3px;
@@ -803,6 +821,7 @@
     font-style: normal;
     font-weight: bold;
 }
+        /*# [Roverenc] #*/
 #chat [data-cid^='30661935-'] .un:after, #user-lists .list .user.id-30661935 .name:after, #user-rollover.id-30661935 .username:after {
     content: 'VIP';
     border-radius: 3px;
@@ -815,7 +834,7 @@
     font-style: normal;
     font-weight: bold;
 }
-/*########## [chat] ##########*/
+/*#### [CHAT] ####*/
 
 #chat-header {
 	background: rgba(30,35,40,0.7);
@@ -876,7 +895,7 @@
 #chat-input.focused #chat-input-field{
 	color: #EEE !important;
 }
-/*### [message] ###*/
+/*#### [MESSAGE] ####*/
 #chat .cm {
     animation: fadein 2.3s;
 }
@@ -910,15 +929,15 @@
 	box-shadow: 0 0 10px hsl(5,100%,50%);
 	color: #000;
 }
-/*#####[YOU]#####*/
+/*####[YOU]####*/
 #chat .cm .msg .from.you .un {
 	color: #0bf !important;
 }
-/*#####[BA]#####*/
+/*####[BA]####*/
 .icon-chat-ambassador + span {
 	color: #F66 !important;
 }
-/*#####[HOST]#####*/
+/*####[HOST]####*/
 .icon-chat-host {
 	background: url(https://image.prntscr.com/image/ysrPC9qnQROyXGnBqiUQBQ.png);
 	background-position: 2px 0 !important;
@@ -933,7 +952,7 @@
 	background: none !important;
 	top: 1px;
 }
-/*#####[CO-HOSTS]#####*/
+/*####[CO-HOSTS]####*/
 .icon-chat-cohost {
 	background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
 	background-position: 2px 0 !important;
@@ -942,7 +961,7 @@
 #dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
 	color: #db182e !important;
 }
-/*#####[MANAGER]#####*/
+/*####[MANAGER]####*/
 .icon-chat-manager {
 	background: url(https://image.prntscr.com/image/RdvxdrJIQx_LweVfrg7Iaw.png);
 	background-position: 2px 0 !important;
@@ -956,7 +975,7 @@
     color: #04cc07;
     background: none !important;
 }
-/*#####[BOUNCER]#####*/
+/*####[BOUNCER]####*/
 .icon-chat-bouncer {
 	background: url(https://image.prntscr.com/image/hvHp5Y8STziDdzJIy5m4fg.png);
 	background-position: 1px 0 !important;
@@ -970,7 +989,7 @@
 	color: #a0a0a0;
 	background: none !important;
 }
-/*#####[DJ]#####*/
+/*####[DJ]####*/
 .icon-chat-dj {
 	background: url(https://image.prntscr.com/image/ljPdRCypTcuUuOeGyzLznA.png);
 	background-position: 0 0 !important;
@@ -984,7 +1003,7 @@
 #dialog-user-role .role-menu .menu ul .dj span {
 	color: #f2ee21 !important;
 }
-/*#####[SUBS]#####*/
+/*####[SUBS]####*/
 .icon-chat-subscriber, #user-rollover .meta.subscriber .status i {
 	background: url(https://image.prntscr.com/image/M5W9T0cFSnyz6TwsUblaMg.png);
 	background-position: -1px 0 !important;
@@ -1019,7 +1038,7 @@
 	background: radial-gradient(hsla(210,10%,50%,0.5), hsla(210,10%,40%,0.3));
 	border: none !important;
 }
-/*--[welcome & log]--*/
+/*#### [WELCOME & LOG] ####*/
 #chat .cm.welcome {
     color: hsl(210,80%,60%);
     box-shadow: inset 0px 0px 3px 3px hsla(246, 49%, 43%, 0.86);
@@ -1040,7 +1059,8 @@
 }
 .cm strong {color: #fff !important;}
 .cm em {color: #999 !important;}
-/*--[moderation]--*/
+
+/*#### [MODERATION] ####*/
 #chat .cm.moderation {
 	background: linear-gradient(hsla(260,50%,25%,0.8), hsla(260,50%,15%,0.8)),
 	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
@@ -1050,7 +1070,7 @@
 #chat .cm.moderation .timestamp {
 	color: hsl(260,70%,70%);
 }
-/*--[user-action]--*/
+/*#### [USER-ACTION] ####*/
 #chat .cm.user-action {
 	background: linear-gradient(hsla(60,100%,20%,0.8), hsla(60,100%,10%,0.8)),
 	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
@@ -1059,7 +1079,7 @@
 #chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
 	color: hsl(60,90%,70%) !important;
 }
-/*--[MENTION]--*/
+/*#### [MENTION] ####*/
 #chat .cm.mention.role-host {
 	background: linear-gradient(hsla(200,100%,30%,0.8), hsla(200,100%,20%,0.8)),
 	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
@@ -1121,10 +1141,9 @@
 	color: hsl(77,100%,40%);
 }
 #chat .cm.mention .msg {
-	/*fix RCS*/
 	background: none !important;
 }
-/*--[BOT]--*/
+/*#### [BOT] ####*/
 #chat .cm.emote {
     background: linear-gradient(hsla(235, 69%, 34%, 0.8), hsla(285, 40%, 18%, 0.33)),
 	linear-gradient(to right, hsl(0, 0%, 0%), hsl(0, 0%, 0%)) !important;
@@ -1141,7 +1160,7 @@
 #chat .emote .text {
   font-style: oblique !important;
 }
-/*--[RCS]--*/
+/*#### [RCS] ####*/
 #woot-rs, #grab-rs, #meh-rs {
 	top: -1px;
 	border-radius: 10px 10px 0 0;
@@ -1168,7 +1187,7 @@
 .rcs.item.selected span {
 	color: hsl(200,60%,50%) !important;
 }
-/*--[Miscellanous]--*/
+/*#### [MISCELLANOUS] ####*/
 #app-menu .button, #room .friends.has-requests .header {
 	background: linear-gradient(to right, hsl(215,100%,30%), hsl(215,100%,20%));
 	box-shadow: inset 0 0 40px 1px hsla(0,0%,0%,0.3);
@@ -1256,9 +1275,11 @@
 #user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
 #user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%); !important} 
 
-/* ICONES */
+/*#### [ICONES] ####*/
 
-/* Koryoshe*/
+    /*## [ANTES DO NOME] ##*/
+	
+        /*# [Koryoshe] #*/
 #chat [data-cid^='000000-'] .un:before {
     content: url(none);
     top: 4px;
@@ -1268,18 +1289,17 @@
     position: relative;
 }
 
-/* Badges */
+/*#### [EMBLEMA-CUSTOM] ####*/
 
-/* Staff */
+    /*## [Staff] ##*/
 
-/* NightPlug */
+        /*# [NightPlug] #*/
 #user-rollover.id-30619682 .badge-box > i.bdg,
 .id-30619682 > .badge-box > i.bdg
 {
     background-image:    url("https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif");
 }
-
-/*Percyvall*/
+        /*# [Percyvall] #*/
 #user-rollover.id-29319764 .badge-box > i.bdg,
 .id-29319764 > .badge-box > i.bdg
 {
