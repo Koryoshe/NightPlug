@@ -965,7 +965,7 @@
 /*#### [iconame] ####*/
 #footer-user .info.is-admin .name i, #footer-user .info.is-ambassador .name i, #footer-user .info.is-plot .name i, #footer-user .info.is-promoter .name i, #footer-user .info.is-sitemod .name i, #footer-user .info.is-staff .name i {
     display: inline-block;
-    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+    background: url(https://image.prntscr.com/image/XwgAuvQuSQy3l9rFopovvA.png) no-repeat !important;
 }
 /*####[YOU]####*/
 #chat .cm .msg .from.you .un {
@@ -1012,9 +1012,6 @@
     height: 15px;
     width: 15px;
 }
-#footer-user .info .name .icon-chat-host + span {
-    color: #db182e !important;
-}
 i.icon-chat-cohost .un {
     background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
     height: 15px;
@@ -1028,11 +1025,6 @@ i.icon-chat-cohost + span,
 .icon-chat-manager {
 	background: url(https://image.prntscr.com/image/RdvxdrJIQx_LweVfrg7Iaw.png);
 	background-position: 2px 0 !important;
-}
-.icon-chat-manager + span,
-#user-lists .group.manager ~ .user span,
-#dialog-user-role .role-menu .menu ul .manager span {
-	color: #115609  !important;
 }
 #user-lists .group.manager {
     color: #04cc07;
@@ -1089,7 +1081,7 @@ i.icon-chat-cohost + span,
     width: 100%;
     height: 30px;
     cursor: pointer;
-    color: #6c88ab;
+    color: #0bf;
 }
 #user-lists .list.staff .user:hover .name {
 	color: #eee !important;
