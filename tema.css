@@ -938,6 +938,11 @@
 	box-shadow: 0 0 10px hsl(5,100%,50%);
 	color: #000;
 }
+/*#### [iconame] ####*/
+#footer-user .info.is-admin .name i, #footer-user .info.is-ambassador .name i, #footer-user .info.is-plot .name i, #footer-user .info.is-promoter .name i, #footer-user .info.is-sitemod .name i, #footer-user .info.is-staff .name i {
+    display: inline-block;
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+}
 /*####[YOU]####*/
 #chat .cm .msg .from.you .un {
 	color: #0bf !important;
@@ -963,8 +968,25 @@
 	top: 1px;
 }
 /*####[CO-HOSTS]####*/
-i.icon-chat-cohost {
-    background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+.icon-chat-host .un {
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+    height: 20px;
+    width: 19px;
+}
+#user-lists .list.room .user .icon-chat-cohost {
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+}
+.role-cohost .msg .from .icon-chat-host {
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+}
+#user-rollover.role-cohost .role i {
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+}
+#footer-user .info .name .icon-chat-host + span {
+    color: #db182e !important;
+}
+i.icon-chat-cohost .un {
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
     height: 20px;
     width: 19px;
 }
@@ -1031,6 +1053,13 @@ i.icon-chat-cohost + span,
 }
 #user-lists .list {
 	font-family: -webkit-body;
+}
+#user-lists .list .user {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    color: #6c88ab;
 }
 #user-lists .list.staff .user:hover .name {
 	color: #eee !important;
