@@ -915,6 +915,7 @@
 .app-right .friends .list-header .input-background {
     border-radius: 10px 25px;
     background: linear-gradient(to top, hsla(220, 5%, 64%, 0.34), hsla(219, 66%, 50%, 0.2));
+	bottom: 10px !important;
 }
 .focused {
 	color: #EEE !important;
