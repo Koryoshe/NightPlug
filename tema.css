@@ -431,7 +431,7 @@
 /*#### [VOTE] ####*/
 #vote {
     box-shadow: 0px 0px 9px 4px #6dc3e0;
-    border-radius: 40px;
+    border-radius: 40px 0px;
     width: 255px !important;
 }
 #app #vote .bottom {
@@ -1196,7 +1196,7 @@
 .rcs.item.selected span {
 	color: hsl(200,60%,50%) !important;
 }
-/*#### [MISCELLANOUS] ####*/
+/*#### [APP-MENU] ####*/
 #app-menu .button, #room .friends.has-requests .header {
 	background: linear-gradient(to right, hsl(215,100%,30%), hsl(215,100%,20%));
 	box-shadow: inset 0 0 40px 1px hsla(0,0%,0%,0.3);
@@ -1204,9 +1204,17 @@
 #app-menu .button:hover, #room .friends.has-requests .header:hover {
 	background: linear-gradient(to right, hsl(210,100%,40%), hsl(210,100%,30%));
 }
-#app-menu .button i {
-	background: url(https://image.prntscr.com/image/wi5c-cIJRp61gFVmF3rVug.png) !important;
+#app-menu.open .button i {
+    left: 7px !important;
+    width: 196px !important;
 }
+#app-menu .button i {
+    background: url(https://image.prntscr.com/image/bteRfPEpT6CSc4TFNS75eg.png) !important;
+    left: 184px !important;
+	width: 35px !important;
+	top: 11px !important;
+}
+
 #app-menu .list a {
     color: #ffffff;
 }
