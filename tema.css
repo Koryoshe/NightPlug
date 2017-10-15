@@ -948,8 +948,9 @@
 }
 /*####[HOST]####*/
 .icon-chat-host {
-	background: url(https://image.prntscr.com/image/ysrPC9qnQROyXGnBqiUQBQ.png);
-	background-position: 2px 0 !important;
+    background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+    height: 20px;
+    width: 19px;
 }
 .icon-chat-host + span,
 #user-lists .group.host ~ .user span,
@@ -962,12 +963,13 @@
 	top: 1px;
 }
 /*####[CO-HOSTS]####*/
-.icon-chat-cohost {
-	background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
-	background-position: 2px 0 !important;
+i.icon-chat-cohost {
+    background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+    height: 20px;
+    width: 19px;
 }
-.icon-chat-cohost + span,
-#dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
+i.icon-chat-cohost + span, 
+#dialog-user-role i.dialog-body i.role-menu i.menu ul i.cohost span {
 	color: #db182e !important;
 }
 /*####[MANAGER]####*/
