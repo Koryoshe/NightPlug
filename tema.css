@@ -994,25 +994,31 @@
 /*####[CO-HOSTS]####*/
 .icon-chat-host .un {
     background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
-    height: 20px;
-    width: 19px;
+    height: 15px;
+    width: 15px;
 }
 #user-lists .list.room .user .icon-chat-cohost {
     background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+    height: 15px;
+    width: 15px;
 }
 .role-cohost .msg .from .icon-chat-host {
     background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+    height: 15px;
+    width: 15px;
 }
 #user-rollover.role-cohost .role i {
     background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+    height: 15px;
+    width: 15px;
 }
 #footer-user .info .name .icon-chat-host + span {
     color: #db182e !important;
 }
 i.icon-chat-cohost .un {
     background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
-    height: 20px;
-    width: 19px;
+    height: 15px;
+    width: 15px;
 }
 i.icon-chat-cohost + span, 
 #dialog-user-role i.dialog-body i.role-menu i.menu ul i.cohost span {
