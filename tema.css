@@ -765,6 +765,17 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
+        /*# [Kotyz] #*/
+#user-rollover.id-30389129 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
     /*## [TAG-DIAMANTE] ##*/
 	
         /*# [Koryoshe] #*/
@@ -819,6 +830,19 @@
 }
         /*# [Percyvll] #*/
 #chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
+    content: 'VIP';
+    border-radius: 3px;
+    border-width: 2px;
+    font-size: 11px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #e2da24;
+    font-style: normal;
+    font-weight: bold;
+}
+        /*# [Kotyz] #*/
+#chat [data-cid^='30389129-'] .un:after, #user-lists .list .user.id-30389129 .name:after, #user-rollover.id-30389129 .username:after {
     content: 'VIP';
     border-radius: 3px;
     border-width: 2px;
