@@ -776,6 +776,28 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
+        /*# [TMTHIAGOTM] #*/
+#user-rollover.id-30424179 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*# [Codex_Vitor] #*/
+#user-rollover.id-29061203 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
     /*## [TAG-DIAMANTE] ##*/
 	
         /*# [Koryoshe] #*/
@@ -856,6 +878,32 @@
 }
         /*# [Roverenc] #*/
 #chat [data-cid^='30661935-'] .un:after, #user-lists .list .user.id-30661935 .name:after, #user-rollover.id-30661935 .username:after {
+    content: 'VIP';
+    border-radius: 3px;
+    border-width: 2px;
+    font-size: 11px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #e2da24;
+    font-style: normal;
+    font-weight: bold;
+}
+        /*# [TMTHIAGOM] #*/
+#chat [data-cid^='30424179-'] .un:after, #user-lists .list .user.id-30424179 .name:after, #user-rollover.id-30424179 .username:after {
+    content: 'VIP';
+    border-radius: 3px;
+    border-width: 2px;
+    font-size: 11px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #e2da24;
+    font-style: normal;
+    font-weight: bold;
+}
+        /*# [Codex_Vitor] #*/
+#chat [data-cid^='29061203-'] .un:after, #user-lists .list .user.id-29061203 .name:after, #user-rollover.id-29061203 .username:after {
     content: 'VIP';
     border-radius: 3px;
     border-width: 2px;
