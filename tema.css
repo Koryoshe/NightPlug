@@ -406,6 +406,9 @@
 	background: linear-gradient(135deg, hsla(0,0%,10%,0.9), hsla(0,0%,5%,0.9));
 }
 /*#### [COLOR HOST ROOM] ####*/
+#waitlist .list .user .name .icon-chat-cohost {
+	    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
+}
 #room-host {
     white-space: nowrap;
     font-size: 12px;
@@ -876,7 +879,6 @@
     color: #2b7b30;
 }
 /*#### [CHAT] ####*/
-
 #chat-header {
 	background: rgba(30,35,40,0.7);
 	border: none !important;
