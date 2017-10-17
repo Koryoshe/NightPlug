@@ -986,12 +986,12 @@
 }
 /*####[HOST]####*/
 .icon-chat-host {
-    background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+    background: url(none);
     height: 20px;
     width: 19px;
 }
 .icon-chat-host + span,
-#user-lists .group.host ,
+#user-lists .group.host ~ .user span,
 #dialog-user-role .role-menu .menu ul .host span {
 	color: #44e7ed !important;
 }
@@ -1001,38 +1001,25 @@
 	top: 1px;
 }
 /*####[CO-HOSTS]####*/
-.icon-chat-host .un {
-    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
+.icon-chat-cohost {
+    background: url(none);
     height: 15px;
     width: 15px;
 }
-#user-lists .list.room .user .icon-chat-cohost {
-    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
-    height: 15px;
-    width: 15px;
-}
-.role-cohost .msg .from .icon-chat-host {
-    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
-    height: 15px;
-    width: 15px;
-}
-#user-rollover.role-cohost .role i {
-    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png) no-repeat !important;
-    height: 15px;
-    width: 15px;
-}
-i.icon-chat-cohost .un {
-    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
-    height: 15px;
-    width: 15px;
-}
-i.icon-chat-cohost + span, 
-#dialog-user-role i.dialog-body i.role-menu i.menu ul i.cohost span {
+.icon-chat-cohost + span,
+#user-lists .group.cohost .user span,
+#dialog-user-role .role-menu .menu ul .cohost span {
 	color: #db182e !important;
 }
+#user-lists .group.cohost {
+	color: #db182e;
+	background: none !important;
+	top: 1px;
+}
+	
 /*####[MANAGER]####*/
 .icon-chat-manager {
-	background: url(https://image.prntscr.com/image/RdvxdrJIQx_LweVfrg7Iaw.png);
+	background: url(none);
 	background-position: 2px 0 !important;
 }
 .icon-chat-manager + span,
@@ -1046,7 +1033,7 @@ i.icon-chat-cohost + span,
 }
 /*####[BOUNCER]####*/
 .icon-chat-bouncer {
-	background: url(https://image.prntscr.com/image/hvHp5Y8STziDdzJIy5m4fg.png);
+	background: url(none);
 	background-position: 1px 0 !important;
 }
 .icon-chat-bouncer + span,
@@ -1060,7 +1047,7 @@ i.icon-chat-cohost + span,
 }
 /*####[DJ]####*/
 .icon-chat-dj {
-	background: url(https://image.prntscr.com/image/ljPdRCypTcuUuOeGyzLznA.png);
+	background: url(none);
 	background-position: 0 0 !important;
 }
 #user-lists .group.dj {
@@ -1095,7 +1082,7 @@ i.icon-chat-cohost + span,
     width: 100%;
     height: 30px;
     cursor: pointer;
-    color: #0bf;
+	color: none;
 }
 #user-lists .list.staff .user:hover .name {
 	color: #eee !important;
