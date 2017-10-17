@@ -804,116 +804,65 @@
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    content: '[CSS]';
     display: inline-block;
-    color: #e2da24!important;
+    color: #000000!important;
     font-weight: bold;
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-/*#### [TAG CHAT] ####*/
+/*#### [TAG-IMAGEM-CHAT] ####*/
 
-    /*## [TAG-BOT] ##*/
+    /*## [DIAMANTE] ##*/
 	
         /*# [NightPlug] #*/
 #chat [data-cid^='30619682-'] .un:after, #user-lists .list .user.id-30619682 .name:after, #user-rollover.id-30619682 .username:after {
-    content: 'BOT';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
     color: #2b7b30;
-    font-style: normal;
-    font-weight: bold;
 }
-	/*## [TAG-DIAMANTE] ##*/
-	
         /*# [Koryoshe] #*/
 #chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 10px;
 }
-	/*## [TAG-VIP] ##*/
+	/*## [TAG-EXTRA] ##*/
 	
-        /*# [Nightplugbot] #*/
-#chat [data-cid^='30597988-'] .un:after, #user-lists .list .user.id-30597988 .name:after, #user-rollover.id-30597988 .username:after {
-    content: 'VIP';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #e2da24;
-    font-style: normal;
-    font-weight: bold;
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
 }
-        /*# [Percyvll] #*/
-#chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
-    content: 'VIP';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #e2da24;
-    font-style: normal;
-    font-weight: bold;
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
 }
-        /*# [Kotyz] #*/
-#chat [data-cid^='30389129-'] .un:after, #user-lists .list .user.id-30389129 .name:after, #user-rollover.id-30389129 .username:after {
-    content: 'VIP';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #e2da24;
-    font-style: normal;
-    font-weight: bold;
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
 }
-        /*# [Roverenc] #*/
-#chat [data-cid^='30661935-'] .un:after, #user-lists .list .user.id-30661935 .name:after, #user-rollover.id-30661935 .username:after {
-    content: 'VIP';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #e2da24;
-    font-style: normal;
-    font-weight: bold;
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
 }
-        /*# [TMTHIAGOM] #*/
-#chat [data-cid^='30424179-'] .un:after, #user-lists .list .user.id-30424179 .name:after, #user-rollover.id-30424179 .username:after {
-    content: 'VIP';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #e2da24;
-    font-style: normal;
-    font-weight: bold;
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
 }
-        /*# [Codex_Vitor] #*/
-#chat [data-cid^='29061203-'] .un:after, #user-lists .list .user.id-29061203 .name:after, #user-rollover.id-29061203 .username:after {
-    content: 'VIP';
-    border-radius: 3px;
-    border-width: 2px;
-    font-size: 11px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #e2da24;
-    font-style: normal;
-    font-weight: bold;
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
 }
 /*#### [CHAT] ####*/
 
@@ -1399,12 +1348,113 @@ i.icon-chat-cohost + span,
     /*## [ANTES DO NOME] ##*/
 	
         /*# [Koryoshe] #*/
-#chat [data-cid^='000000-'] .un:before {
-    content: url(none);
-    top: 4px;
-    Left: -2px;
+#chat [data-cid^='5417955-'] .un:before {
+    content: '[CSS]';
+    top: 0px;
+    Left: 0px;
+	color: #000000!important;
     padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+#chat [data-cid^='30619682-'] .un:before {
+    content: '[BOT]';
+    top: 0px;
+    Left: 0px;
+	color: #44e7ed!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+        /*# [TAG-VIP] #*/
+		/*# Roverenc #*/
+#chat [data-cid^='30661935-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Nightplugbot #*/
+#chat [data-cid^='30597988-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Percyvall #*/
+#chat [data-cid^='29319764-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Kotyz #*/
+#chat [data-cid^='30389129-'] .un:before { 
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# TMTHIAGOTM #*/
+#chat [data-cid^='30424179-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Codex_Vitor #*/
+#chat [data-cid^='29061203-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# null #*/
+#chat [data-cid^='null-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# null #*/
+#chat [data-cid^='null-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# null #*/
+#chat [data-cid^='null-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
     position: relative;
 }
 
