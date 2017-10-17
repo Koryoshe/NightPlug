@@ -991,7 +991,7 @@
     width: 19px;
 }
 .icon-chat-host + span,
-#user-lists .group.host ~ .user span,
+#user-lists .group.host ,
 #dialog-user-role .role-menu .menu ul .host span {
 	color: #44e7ed !important;
 }
@@ -1034,6 +1034,11 @@ i.icon-chat-cohost + span,
 .icon-chat-manager {
 	background: url(https://image.prntscr.com/image/RdvxdrJIQx_LweVfrg7Iaw.png);
 	background-position: 2px 0 !important;
+}
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+	color: #04cc07 !important;
 }
 #user-lists .group.manager {
     color: #04cc07;
