@@ -1005,13 +1005,14 @@
 /*####[CO-HOSTS]####*/
 .icon-chat-cohost {
     background: url(none);
-    height: 15px;
-    width: 15px;
+    background-position: 2px 0 !important;
 }
 .icon-chat-cohost + span,
 #user-lists .group.cohost .user span,
 #dialog-user-role .role-menu .menu ul .cohost span {
 	color: #db182e !important;
+	height: 16px;
+    width: 16px;
 }
 #user-lists .group.cohost {
 	color: #db182e;
