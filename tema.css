@@ -818,9 +818,9 @@
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: '[CSS]';
+    content: '[VIP]';
     display: inline-block;
-    color: #000000!important;
+    color: #e2da24!important;
     font-weight: bold;
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
@@ -1415,10 +1415,10 @@ i.icon-chat-cohost + span,
 	
         /*# [Koryoshe] #*/
 #chat [data-cid^='5417955-'] .un:before {
-    content: '[CSS]';
+    content: '[VIP]';
     top: 0px;
     Left: 0px;
-	color: #000000!important;
+	color: #e2da24!important;
     padding-left: 2px;
     padding-right: 4px;
     position: relative;
