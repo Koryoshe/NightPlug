@@ -432,21 +432,59 @@
     color: cornflowerblue;
 }
 /*#### [VOTE] ####*/
+#vote .crowd-response {
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.24);
+    font-family: cursive;
+	margin-right: 2px;
+}
+#vote .crowd-response:hover .bottom {
+	opacity: 1;
+	top: 5px;
+	border-radius: 0 0 100% 100%;
+}
+#vote .crowd-response .top {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 35px;
+    width: 100%;
+    top: 14px;
+	font-family: -webkit-body;
+}
 #vote {
-    box-shadow: 0px 0px 9px 4px #6dc3e0;
-    border-radius: 40px 0px;
-    width: 255px !important;
+    position: absolute;
+    left: 690.5px;
+    top: 521px;
+    width: 256px;
+    height: 62px;
+    z-index: 9;
+}
+#vote .bottom {
+	position: absolute;
+    top: 13px;
+    left: 6px;
+    width: 100%;
+    height: 24px;
+opacity: 0;
+}
+#vote {
+    box-shadow: 0px 0px 10px 4px #6dc3e0;
+    border-radius: 39px 0px;
+    width: 256px !important;
 }
 #app #vote .bottom {
 	background: rgba(0,0,0,0);
 }
 #woot, #grab, #meh {
-	margin-top: 0 !important;
+	margin-top: 1px !important;
 }
 #vote .selected,
 #vote .selected .value {
-	font-weight: bold;
-	color: #FFF;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: -webkit-body;
 }
 .bar-value {
     font-weight: 300;
@@ -496,7 +534,7 @@
     background-position: center center;
 }
 #woot {
-    border-radius: 40px 10px 10px 0px;
+    border-radius: 39px 10px 10px 0px;
     background: linear-gradient(135deg, hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
     box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
 }
@@ -532,7 +570,7 @@
 #meh {
     background: linear-gradient(225deg, hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
     box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
-    border-radius: 10px 0px 40px 10px;
+    border-radius: 10px 0px 39px 10px;
     margin-right: 0 !important;
 }
 #meh.selected, #meh-rs .title {
@@ -840,14 +878,14 @@
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 10px;
 }
-	/*## [TAG-EXTRA] ##*/
-	
         /*# [Maatheuus] #*/
 #chat [data-cid^='3440943-'] .un:after, #user-lists .list .user.id-3440943 .name:after, #user-rollover.id-3440943 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 5px;
     color: #2b7b30;
 }
+	/*## [TAG-EXTRA] ##*/
+	
         /*# [Ninguem] #*/
 #chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
@@ -891,6 +929,7 @@
     position: relative;
     font-family: sans-serif;
     font-size: 12px;
+    color: #d6d7d8;
 }
 #chat-messages {
 	border-color: #555;
@@ -1409,9 +1448,9 @@ i.icon-chat-cohost + span,
 #user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
 #user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%); !important} 
 
-/*#### [ICONES] ####*/
+/*#### [TAG-ANTES-DO-NOME] ####*/
 
-    /*## [ANTES DO NOME] ##*/
+    /*## [CSS/BOT] ##*/
 	
         /*# [Koryoshe] #*/
 #chat [data-cid^='5417955-'] .un:before {
