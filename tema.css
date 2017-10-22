@@ -432,6 +432,11 @@
     color: cornflowerblue;
 }
 /*#### [VOTE] ####*/
+#vote .crowd-response.disabled .bottom {
+  top: 5px;
+  opacity: 1;
+  border-radius: 0 0 50px 50px;
+}
 #vote .crowd-response {
     text-align: center;
     cursor: pointer;
