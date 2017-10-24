@@ -1,0 +1,291 @@
+/*#### [TAG PERFIL] ####*/
+       
+	/*## [TAG-BOT] ##*/
+	   
+        /*# [nightPlug] #*/
+#user-rollover.id-30619682 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[BOT]";
+    display: inline-block;
+    color: #44e7ed!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+	/*## [TAG-VIP] ##*/
+	
+       /*# [Roverenc] #*/
+#user-rollover.id-30661935 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+       /*# [Nightplugbot] #*/
+#user-rollover.id-30597988 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*# [Percyvall] #*/
+#user-rollover.id-29319764 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*# [Kotyz] #*/
+#user-rollover.id-30389129 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*# [TMTHIAGOTM] #*/
+#user-rollover.id-30424179 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*# [Codex_Vitor] #*/
+#user-rollover.id-29061203 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+        /*# [Maatheuus] #*/
+#user-rollover.id-3440943 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: "[VIP]";
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+    /*## [TAG-DIAMANTE] ##*/
+	
+        /*# [Koryoshe] #*/
+#user-rollover.id-5417955 .level:after {
+    background-image: url(none);
+    background-repeat: no-repeat;
+    content: '[VIP]';
+    display: inline-block;
+    color: #e2da24!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+/*#### [TAG-IMAGEM-CHAT] ####*/
+
+    /*## [DIAMANTE] ##*/
+	
+        /*# [NightPlug] #*/
+#chat [data-cid^='30619682-'] .un:after, #user-lists .list .user.id-30619682 .name:after, #user-rollover.id-30619682 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 10px;
+    color: #2b7b30;
+}
+        /*# [Koryoshe] #*/
+#chat [data-cid^='5417955-'] .un:after, #user-lists .list .user.id-5417955 .name:after, #user-rollover.id-5417955 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 10px;
+}
+        /*# [Maatheuus] #*/
+#chat [data-cid^='3440943-'] .un:after, #user-lists .list .user.id-3440943 .name:after, #user-rollover.id-3440943 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+	/*## [TAG-EXTRA] ##*/
+	
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+        /*# [Ninguem] #*/
+#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+/*#### [TAG-ANTES-DO-NOME] ####*/
+
+    /*## [CSS/BOT] ##*/
+	
+        /*# [Koryoshe] #*/
+#chat [data-cid^='5417955-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+#chat [data-cid^='30619682-'] .un:before {
+    content: '[BOT]';
+    top: 0px;
+    Left: 0px;
+	color: #44e7ed!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+        /*# [TAG-VIP] #*/
+		/*# Roverenc #*/
+#chat [data-cid^='30661935-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Nightplugbot #*/
+#chat [data-cid^='30597988-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Percyvall #*/
+#chat [data-cid^='29319764-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Kotyz #*/
+#chat [data-cid^='30389129-'] .un:before { 
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# TMTHIAGOTM #*/
+#chat [data-cid^='30424179-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Codex_Vitor #*/
+#chat [data-cid^='29061203-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# Maatheuus #*/
+#chat [data-cid^='3440943-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# null #*/
+#chat [data-cid^='null-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# null #*/
+#chat [data-cid^='null-'] .un:before {
+    content: '[VIP]';
+    top: 0px;
+    Left: 0px;
+	color: #e2da24!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+
+/*#### [EMBLEMA-CUSTOM] ####*/
+
+    /*## [Staff] ##*/
+
+        /*# [NightPlug] #*/
+#user-rollover.id-30619682 .badge-box > i.bdg,
+.id-30619682 > .badge-box > i.bdg
+{
+    background-image:    url("https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif");
+}
+        /*# [Percyvall] #*/
+#user-rollover.id-29319764 .badge-box > i.bdg,
+.id-29319764 > .badge-box > i.bdg
+{
+	background-image:   url("https://image.prntscr.com/image/VQWEV9GfT4K1mpg2ykFWvg.gif");
+}
