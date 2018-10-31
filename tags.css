@@ -92,22 +92,22 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-    /*## [TAG-DIAMANTE] ##*/
+    /*## [TAG-DEV] ##*/
 	
         /*# [Koryoshe] #*/
 #user-rollover.id-5417955 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: '[VIP]';
+    content: '[DEV]';
     display: inline-block;
-    color: #e2da24!important;
+    color: #aac6c7fc!important;
     font-weight: bold;
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
 /*#### [TAG-IMAGEM-CHAT] ####*/
 
-    /*## [DIAMANTE] ##*/
+    /*## [IMAGEM-DIAMANTE] ##*/
 	
         /*# [NightPlug] #*/
 #chat [data-cid^='30619682-'] .un:after, #user-lists .list .user.id-30619682 .name:after, #user-rollover.id-30619682 .username:after {
@@ -160,18 +160,19 @@
 }
 /*#### [TAG-ANTES-DO-NOME] ####*/
 
-    /*## [CSS/BOT] ##*/
+    /*## [DEV/BOT] ##*/
 	
         /*# [Koryoshe] #*/
 #chat [data-cid^='5417955-'] .un:before {
-    content: '[VIP]';
+    content: '[DEV]';
     top: 0px;
     Left: 0px;
-	color: #e2da24!important;
+	color: #aac6c7fc!important;
     padding-left: 2px;
     padding-right: 4px;
     position: relative;
 }
+        /*# [NightPlug] #*/
 #chat [data-cid^='30619682-'] .un:before {
     content: '[BOT]';
     top: 0px;
