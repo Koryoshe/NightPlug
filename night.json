@@ -2,7 +2,7 @@
 	"room": "Night Plug",
 	"author": "Koryoshe",
 	"icon": "https://image.prntscr.com/image/Jj7IPj1oTq2FCsWXrnt1dw.png",
-	"css": "",
+	"css": "https://raw.githubusercontent.com/Koryoshe/NightPlug/master/config.css",
 	
 	"colors": {
         "chat": {
@@ -47,9 +47,9 @@
 	},
 	
     "images": {
-		"background": "https://image.prntscr.com/image/hFefx0wFS42_Z3HxA4uSBQ.jpg",
+		"background": null,
 		"playback": "https://image.prntscr.com/image/E3WM8I_rT7uScgfIH2SNFg.png",
-		"chat": "https://image.prntscr.com/image/UEF3ekJGSHOua0PDDfIKuA.png",
+		"chat": null,
 		"admin": null,
 		"ambassador": null,
 		"host": "https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png",
