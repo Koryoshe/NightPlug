@@ -8,9 +8,9 @@
 .nav-left__top .plugdj-logo {
     display: inline-block;
     width: 84px;
-    height: 26px;
+    height: 37px;
     background: url(https://image.prntscr.com/image/HeyQPf2jQVyGNd_aXO1HXQ.png) no-repeat 0 0;
-    margin-left: 15px;
+    margin-left: 11px;
 }	
 /*#### [CONFIG DA SALA] ####*/
 #room-settings a:hover, #chat a:hover {
@@ -439,6 +439,12 @@
 #room-bar .favorite i {	
 }
 
+/*#### [FILA ETA] ####*/
+.btn-no-dj-primary.btn-no-dj-secondary__bottom, .btn-no-dj-secondary.btn-no-dj-secondary__bottom {
+    padding-right: 20px;
+    background-color: #025bf75e;
+}
+
 /*#### [ASSINE] ####*/
 
 .signed-in .community__top-right .btn-subscribe {
@@ -482,6 +488,17 @@
 }
 
 /*#### [VOTE] ####*/
+.community .room-controls--desktop {
+    display: block;
+    width: 175px;
+    float: right;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgba(2, 64, 138, 0.19);
+    color: rgba(255, 255, 255, 0.6);
+    border: 2px solid #fdfdfd87;
+    border-radius: 24px;
+}
 #vote .crowd-response.disabled .bottom {
   top: 5px;
   opacity: 1;
