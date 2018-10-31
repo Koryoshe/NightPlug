@@ -6,14 +6,14 @@
 	
 	"colors": {
         "chat": {
-            "host": "#44e7ed",
-			"cohost": "#db182e",
-			"manager": "#115609",
-		    "bouncer": "#a0a0a0",
-		    "rdj": "#f2ee21",
-	    	"subscriber": "#c59840",
-	    	"silversubscraiber": "#8694b2",
-	    	"friend": "#346887",
+                "host": "",
+	        "cohost": "",
+	        "manager": "",
+	        "bouncer": "",
+		"rdj": "",
+	    	"subscriber": "",
+	    	"silversubscraiber": "",
+	    	"friend": "",
 	    	"user": "#346887"
         },
         "footer": "#",
@@ -32,18 +32,18 @@
 	},
 	
 	"ccc": {
-		"admin": "#42a5dc",
-		"ambassador": "#89be6c",
-		"host": "#44e7ed",
-		"cohost": "#db182e",
-		"manager": "#115609",
-		"bouncer": "#a0a0a0",
-		"rdj": "#f2ee21",
-		"subscriber": "#c59840",
-		"silversubscraiber": "#8694b2",
-		"friend": "#346887",
-		"user": "#77a7d6",
-		"msg": "#cccccc"
+		"admin": "",
+		"ambassador": "",
+		"host": "",
+		"cohost": "",
+		"manager": "",
+		"bouncer": "",
+		"rdj": "",
+		"subscriber": "",
+		"silversubscraiber": "",
+		"friend": "",
+		"user": "",
+		"msg": ""
 	},
 	
     "images": {
