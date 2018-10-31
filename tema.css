@@ -1021,17 +1021,17 @@ i.icon-chat-cohost + span,
 }
 /*####[BOUNCER]####*/
 #chat .badge-box .icon-chat-bouncer {
-	background: url(https://image.prntscr.com/image/hvHp5Y8STziDdzJIy5m4fg.png);
+	background: url(https://image.prntscr.com/image/XebVC-9uSFeLnbAjPQl_IA.png);
     height: 16px;
     width: 16px;
 }
 #user-lists .list.staff .group.bouncer i {
-    background: url(https://image.prntscr.com/image/hvHp5Y8STziDdzJIy5m4fg.png);
+    background: url(https://image.prntscr.com/image/XebVC-9uSFeLnbAjPQl_IA.png);
     height: 16px;
     width: 16px;
 }
 .icon-chat-bouncer {
-	background: url(https://image.prntscr.com/image/hvHp5Y8STziDdzJIy5m4fg.png);
+	background: url(https://image.prntscr.com/image/XebVC-9uSFeLnbAjPQl_IA.png);
 	background-position: 1px 0 !important;
 }
 .icon-chat-bouncer + span,
