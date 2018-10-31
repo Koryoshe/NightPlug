@@ -6,11 +6,11 @@
 }
 /*#### [ICONE DA SALA] ####*/
 .nav-left__top .plugdj-logo {
-    background: url(https://image.prntscr.com/image/HeyQPf2jQVyGNd_aXO1HXQ.png) no-repeat;
-    width: 38px !important;
-    height: 38px !important;
-    top: 8px !important;
-    left: 2px !important;
+    display: inline-block;
+    width: 84px;
+    height: 26px;
+    background: url(https://image.prntscr.com/image/HeyQPf2jQVyGNd_aXO1HXQ.png) no-repeat 0 0;
+    margin-left: 15px;
 }	
 /*#### [CONFIG DA SALA] ####*/
 #room-settings a:hover, #chat a:hover {
