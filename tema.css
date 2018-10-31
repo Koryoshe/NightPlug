@@ -939,17 +939,17 @@ opacity: 0;
 }
 /*####[HOST]####*/
 #chat .badge-box .icon-chat-host {
-	background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+	background: url(https://image.prntscr.com/image/SF59oxZFQIWskcUdbweoQQ.png);
     height: 20px;
     width: 19px;	
 }
 #user-lists .list.staff .group i {
-	background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+	background: url(https://image.prntscr.com/image/SF59oxZFQIWskcUdbweoQQ.png);
     height: 20px;
     width: 19px;
 }
 .icon-chat-host {
-	background: url(https://image.prntscr.com/image/5FPXGFWzTOygcXAUmeqhQQ.png);
+	background: url(https://image.prntscr.com/image/SF59oxZFQIWskcUdbweoQQ.png);
     height: 20px;
     width: 19px;
 }
@@ -972,6 +972,11 @@ opacity: 0;
 	background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
     height: 16px;
     width: 16px;	
+}
+#user-lists .list.staff .group.cohost i {
+    background: url(https://image.prntscr.com/image/L_ItM_ypSAiNiT1x5X8v1g.png);
+    height: 16px;
+    width: 16px;
 }
 #user-rollover.role-cohost .role i {
     background: ;
