@@ -1,3 +1,6 @@
+<?php 
+header('Access-Control-Allow-Origin: https://plug.dj'); 
+header('Content-Type: text/json');
 {
 	"room": "Night Plug",
 	"author": "Koryoshe",
@@ -672,3 +675,4 @@
 		"alanwalker5": "https://i.imgur.com/BIpMXaS.gif"
 			}
 }
+?>
