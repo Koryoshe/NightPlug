@@ -439,6 +439,48 @@
 #room-bar .favorite i {	
 }
 
+/*#### [ASSINE] ####*/
+
+.signed-in .community__top-right .btn-subscribe {
+    display: inline-block;
+    padding: 5px 16px 3px;
+}
+.btn-subscribe {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.btn-primary:hover, .btn-secondary, .btn-subscribe {
+    background-color: #ffcf00;
+    border-radius: 25px;
+    font-size: 10px;
+    color: #24282f;
+    padding: 5px 11px 3px;
+    cursor: pointer;
+}
+
+/*#### [ASSINE LEFT] ####*/
+.nav-left__bottom .btn-subscribe {
+    margin: 0;
+}
+.btn-subscribe.btn-lg {
+    border: 0;
+    min-width: 195px;
+    font-size: 11px;
+    padding: 12px 10px 9px 10px;
+}
+.btn-primary:hover, .btn-secondary, .btn-subscribe {
+    background-color: #ffcf00;
+    border-radius: 25px;
+    font-size: 10px;
+    color: #24282f;
+    padding: 5px 11px 3px;
+    cursor: pointer;
+}
+
 /*#### [VOTE] ####*/
 #vote .crowd-response.disabled .bottom {
   top: 5px;
