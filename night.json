@@ -2,7 +2,7 @@
 	"room": "Night Plug",
 	"author": "Koryoshe",
 	"icon": "https://image.prntscr.com/image/Jj7IPj1oTq2FCsWXrnt1dw.png",
-	"css": "https://raw.githubusercontent.com/Koryoshe/NightPlug/master/tema.css",
+	"css": "https://raw.githubusercontent.com/Koryoshe/NightPlug/master/config.css",
 	
 	"colors": {
         "chat": {
